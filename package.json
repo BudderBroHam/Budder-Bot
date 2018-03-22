@@ -1,15 +1,12 @@
 {
   "name": "budderbot",
+  "description": "description",
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.2"
   },
-  "devDependencies": {},
-  "description": ""
 }
