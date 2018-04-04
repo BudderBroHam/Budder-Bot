@@ -1,18 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-bot.on('message', function(message) {
-        
-            //funny dad joke haha
-            if (message.author.equals(bot.user)) return;
-            var Imposition = message.content.search("I'm");
-            if (Imposition > -1) {
-                message.channel.send("Hello" + message.content.replace('I\'m','') + ", I'm a bot");
-            }
-            var imposition = message.content.search("i'm");
-            if (imposition > -1) {
-                message.channel.send("Hello" + message.content.replace('i\'m','') + ", I'm a bot");
-            }
     //signing up
     if(message.channel.name == 'signups') {
         
